@@ -2,7 +2,7 @@
 Tool to restore the stock Odin 2 Android bootloader (abl)
 
 ## Background
-The LinuxLoader tool used to flash their custom abl (in order to run Linux distros like ROCKNIX) creates a handy backup of the stock abl.  However, if for any reason you run the tool twice, it will write over your stock abl backup with a "backup" of its own custom abl.  This will prevent you from reverting back to the stock abl -- I found this out the hard way during my own testing.
+The LinuxLoader tool used to flash their custom abl (in order to [run Linux distros like ROCKNIX](https://retrogamecorps.com/2025/03/03/linux-on-the-odin-2-rocknix-guide/)) creates a handy backup of the stock abl.  However, if for any reason you run the tool twice, it will write over your stock abl backup with a "backup" of its own custom abl.  This will prevent you from reverting back to the stock abl -- I found this out the hard way during my own testing.
 
 This package contains a backup of the stock AYN Odin 2 abl and a script to restore the stock abl if you don't have one already backed up.
 
